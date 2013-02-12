@@ -1,0 +1,18 @@
+LOLOlogarithmicallyOLOL|
+ LOLoptimizedLOLOLOLOLO|
+  LOlozengesLOLOLOLOLOL|
+=======================+
+
+A fast logging library. Format strings get saved at program init, and logging
+lines are turned into a unique identifier and the accompanying data. Logging
+output is written as binary data to stdout rather than printed in the
+traditional printf() manner. To read logging output, the data must first be
+converted from LOL format into human readable text.
+
+TODO:
+[_] data format for saved logging lines
+[_] converter for LOL'd output using save format plus logging data
+[_] library frontend that saves logging lines
+[_] library frontend that spits out logging data in a binary format
+[_] support for pointers?
+[_] PROFIT
